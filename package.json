@@ -1,7 +1,6 @@
 {
   "name": "vanilla-javascript-playground",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,15 @@
   "dependencies": {
     "nodemon": "^2.0.4",
     "ramda": "^0.27.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ketankshukla/ketan-js.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ketankshukla/ketan-js/issues"
+  },
+  "homepage": "https://github.com/ketankshukla/ketan-js#readme",
+  "description": ""
 }
