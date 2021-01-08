@@ -56,3 +56,18 @@ console.log(
     return index;
   }).join('\n')
 );
+
+const functionalFizzBuzz = n => {
+
+  return Array.from(
+    { length: n },
+    (_, idx) =>
+      [[15, "fizzbuzz"], [5, "buzz"], [3, "fizz"]].find(
+        val => (idx + 1) % val[0] === 0
+      ) || idx + 1
+  ).reduce((acc, el) => (acc += (el[1] || el) + "\n"), "");
+
+};
+
+const final = functionalFizzBuzz(15);
+final
