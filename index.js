@@ -1,6 +1,14 @@
+import * as R from 'ramda'
+
 const x = (a,b) => {
     return a+b
 }
+
+const hh = (x,y) => {
+    return R.add(x,y) + R.subtract(x,y) + R.multiply(x,y) + R.divide(x,y)
+}
+const uu = hh(1,2)
+uu
 
 console.log(x(1,2))
 
