@@ -5,6 +5,7 @@ const x = (a,b) => {
 }
 
 //added pull request number 1
+//ok comment expanded!
 
 const hh = (x,y) => {
     return R.add(x,y) + R.subtract(x,y) + R.multiply(x,y) + R.divide(x,y)
