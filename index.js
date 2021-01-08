@@ -4,6 +4,8 @@ const x = (a,b) => {
     return a+b
 }
 
+//added pull request
+
 const hh = (x,y) => {
     return R.add(x,y) + R.subtract(x,y) + R.multiply(x,y) + R.divide(x,y)
 }
